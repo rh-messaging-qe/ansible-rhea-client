@@ -4,7 +4,12 @@
     name="{{ interconnect_dependencies }}"
     state=present
 
+- name: Ensure that java is installed
+  include_role:
+    name: ansiblebit.oracle-java
+    tasks_from: main.yml
+
 - name: Install nodejs and npm package
   include_role:
-  name: nodejs
-  tasks_from: main.yml
+    name: nodejs
+    tasks_from: main.yml
