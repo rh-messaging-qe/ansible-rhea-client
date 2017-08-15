@@ -1,7 +1,7 @@
 .PHONY: package_install clean
 
 # name of containers from inventory
-containers = aron deca thor
+containers = zeus hades
 
 all: scenario1
 
