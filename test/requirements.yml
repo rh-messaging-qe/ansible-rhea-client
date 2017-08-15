@@ -1,2 +1,15 @@
+# provision_docker
 - src: https://github.com/chrismeyersfsu/provision_docker.git
   name: provision_docker
+
+# epel
+- src: geerlingguy.repo-epel
+  name: epel
+#
+# # Java repo
+# - src: https://github.com/ansiblebit/oracle-java.git
+#   name: ansiblebit.oracle-java
+
+# npm
+- src: https://github.com/geerlingguy/ansible-role-nodejs.git
+  name: nodejs

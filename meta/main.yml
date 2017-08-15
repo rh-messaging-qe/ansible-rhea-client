@@ -1,8 +1,13 @@
+---
 dependencies:
-  - src: advertine.nodejs
-    path: ../roles
+  # epel repo
+  - src: geerlingguy.repo-epel
+    name: epel
+
+  - src: https://github.com/geerlingguy/ansible-role-nodejs.git
+    # path: ../roles
     name: nodejs
 
-  - src: ansiblebit.oracle-java
-    path: ../roles
-    name: ansiblebit.oracle-java
+  # - src: https://github.com/ansiblebit/oracle-java
+  #   # path: ../roles
+  #   name: ansiblebit.oracle-java

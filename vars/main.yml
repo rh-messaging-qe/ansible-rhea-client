@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ---
-interconnect_dependencies: wget, libaio, unzip, epel-release
+interconnect_dependencies: wget, libaio, unzip
