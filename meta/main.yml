@@ -1,0 +1,4 @@
+dependencies:
+  - src: advertine.nodejs
+    path: ../roles
+    name: nodejs

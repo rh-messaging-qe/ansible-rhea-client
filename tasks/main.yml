@@ -1,2 +1,4 @@
 ---
 - include: install-dependencies.yml
+
+- include: install-dependencies.yml

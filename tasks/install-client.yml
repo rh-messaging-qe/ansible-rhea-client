@@ -1,0 +1,6 @@
+---
+- name: Install client.
+  npm:
+    name: cli-rhea
+    state: latest
+    global: yes

@@ -1,0 +1,10 @@
+---
+- name: Ensure that system dependencies are installed (RPM-based)
+  package:
+    name="{{ interconnect_dependencies }}"
+    state=present
+
+- name: Install nodejs and npm package
+  include_role:
+  name: nodejs
+  tasks_from: main.yml
