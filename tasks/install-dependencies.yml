@@ -1,5 +1,0 @@
----
-- name: Ensure that system dependencies are installed (RPM-based)
-  package:
-    name="{{ interconnect_dependencies }}"
-    state=present

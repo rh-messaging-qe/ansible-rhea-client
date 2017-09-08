@@ -5,10 +5,6 @@
 # epel
 - src: geerlingguy.repo-epel
   name: epel
-#
-# # Java repo
-# - src: https://github.com/ansiblebit/oracle-java.git
-#   name: ansiblebit.oracle-java
 
 # npm
 - src: https://github.com/geerlingguy/ansible-role-nodejs.git

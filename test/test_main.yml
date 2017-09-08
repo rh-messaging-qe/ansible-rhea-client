@@ -9,4 +9,4 @@
   hosts: clients
   remote_user: root
   roles:
-    - { role: interconnect-ansible-install-client, become: yes }
+    - { role: ansible-rhea-client, become: yes }

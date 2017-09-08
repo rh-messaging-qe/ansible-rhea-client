@@ -1,7 +1,7 @@
 Interconnect Client - Ansible role
 =========
 
-[![Build Status](https://travis-ci.org/Frawless/interconnect-ansible-install-client.svg?branch=master)](https://travis-ci.org/Frawless/interconnect-ansible-install-client)
+[![Build Status](https://travis-ci.org/Frawless/ansible-rhea-client.svg?branch=master)](https://travis-ci.org/ansible-rheal-client)
 
 Interconnect ansible role for install client based on RHEA library.
 
