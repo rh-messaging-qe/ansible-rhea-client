@@ -1,5 +1,0 @@
-localhost ansible_connection=local
-
-[clients]
-zeus image="rhmessagingqe/sshd-service:centos7"
-hades image="rhmessagingqe/sshd-service:centos6"

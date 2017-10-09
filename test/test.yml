@@ -9,4 +9,4 @@
   hosts: clients
   remote_user: root
   roles:
-    - { role: ansible-rhea-client, become: yes }
+    - role: ansible-rhea-client

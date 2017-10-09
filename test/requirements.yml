@@ -3,8 +3,8 @@
   name: provision_docker
 
 # epel
-- src: geerlingguy.repo-epel
-  name: epel
+- src: https://github.com/msgqe/ansible-epel.git
+  name: ansible-epel
 
 # npm
 - src: https://github.com/geerlingguy/ansible-role-nodejs.git
