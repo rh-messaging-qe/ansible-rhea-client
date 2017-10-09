@@ -37,4 +37,4 @@ install:
 
 
 script:
-  cd test && make all
+  make test
