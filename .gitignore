@@ -1,1 +1,4 @@
 *.retry
+*.cfg
+build/
+*.retry
